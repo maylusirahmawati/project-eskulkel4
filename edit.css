@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background: #FFFF;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.wrapper {
+    width: 600px;
+    height: 500px;
+    margin-left: 28%;
+    margin-top: 2%;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(143, 135, 135);
+    background: linear-gradient(#0033FF, #0600AB, #00033D);
+    border-radius: 15px;
+    display: flex;
+}
+
+h2 {
+    color: #10214b;
+    justify-content: center;
+    text-align: center;
+}
+
+.wrapper label {
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    font-size: 15px;
+}
+
+.wrapper form {
+    text-align: center;
+    width: 70%;
+}
+
+.wrapper textarea {
+    text-align: center;
+    color: #023337;
+    border: none;
+    padding: 4px 15px;
+    background-color: #ebe7e1;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.wrapper textarea:hover {
+    background: #10214b;
+    color: #ffff;
+}
+
+.wrapper input {
+    text-align: center;
+    color: #023337;
+    border: none;
+    padding: 8px 15px;
+    background-color: #ebe7e1;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.wrapper input:hover {
+    background: #10214b;
+    color: #ffff;
+}
+
+.wrapper button {
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 10px 15px;
+    background-color: #ebe7e1;
+    color: #10214b;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.wrapper button:hover {
+    background: #10214b;
+    color: #d7bd88;
+}

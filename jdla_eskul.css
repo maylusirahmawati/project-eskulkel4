@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffff;
+}
+
+.container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 70px;
+    position: relative;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A31621;
+    padding: 10px 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: #FFF0F0;
+    font-family: "Jacques Francois";
+    font-size: 15px;
+}
+
+.nav img {
+    max-width: 60px;
+    padding: 5px;
+}
+
+.nav span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF0F0;
+}
+
+.navbar .nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #A31621;
+    font-family: "Lustria";
+    transition: 0.5s;
+    background-color: #FBECD7;
+    padding: 5px 20px;
+    border-radius: 15px;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid black;
+    color: #FBECD7;
+    background: #A31621;
+    padding: 5px 25px;
+}
+
+.table_jdl {
+    margin: 3% auto;     
+    width: 75%;
+    background-color: rgba(146, 13, 24, 0.8); 
+    padding: 50px 60px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.8);
+}
+
+table {
+    width: 100%;             
+    margin: auto;        
+    border-collapse: collapse;
+    background-color: #FFF0F0;
+    text-align: center;
+}
+
+table th, table td {
+    border: 4px solid #FBECD7;
+    padding: 12px;
+}
+
+table th {
+    background: #A31621;
+    color: #FBECD7;
+    font-weight: bold;
+}

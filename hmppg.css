@@ -1,0 +1,535 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffff;
+}
+
+.container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px  70px;
+    position: relative;
+}
+
+.flex {
+    display: flex;
+    gap: 20px
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #A31621;
+    padding-top: 10px;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 35%;
+    color: #FFF0F0;
+    font-family: "Jacques Francois";
+    font-size: 15px;
+}
+
+.logo h3 {
+    margin-left: 10%;
+}
+
+.logo h3:hover {
+    border-bottom: 2px solid black ;
+    color: #A31621;
+    background: #FBECD7;
+    padding: 6px 15px;
+    border-radius: 15px;
+}
+
+.logo img {
+    max-width: 58px;
+    margin-top: -10px;
+}
+
+.navbar .nav {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 25px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffff;
+    font-family: "Lustria";
+    position: relative;
+    transition: .5s;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid black ;
+    color: #A31621;
+    background: #FBECD7;
+    padding: 6px 15px;
+    border-radius: 15px;
+}
+
+.btn {
+    background-color: #FBECD7;
+    color: #A31621;
+    padding: 6px 15px;
+    border-radius: 15px;
+    border: none;
+    font-family: "Lustria";
+    font-size: 15px;
+}
+
+.btn:hover {
+    border-bottom: 2px solid black ;
+}
+
+/*section 1*/
+.hero {
+    margin-top: 50px;
+}
+
+.hero h2 {
+    font-family: "Ledger";
+    font-size: 28px;
+    color: #A31621;
+}
+
+.hero p {
+    font-family: "Libre Baskerville";
+    font-size: 24px;
+    color: black;
+}
+
+.hero h3 {
+    font-family: "Libre Baskerville";
+    font-size: 20px;
+    color: #A31621;
+    font-weight: normal;
+}
+
+.button-primary a {
+    border: none;
+    text-decoration: none;
+    background-color: #A31621;
+    padding: 10px 30px;
+    font-family: "Lustria";
+    font-size: 20px;
+    border-radius: 10px;
+    color: #ffff;
+}
+
+.button-primary a:hover {
+    background-color: #FBECD7;
+    color: #A31621;
+}
+
+.log img {
+    margin-left: 20%;
+    max-width: 500px;
+    margin-top: -5%;
+}
+
+/*section 2*/
+
+.About {
+    background-color: #FBECD7;
+}
+
+.About img {
+    margin-top: 4%;
+    max-width: 500px;
+}
+
+.About h2 {
+    margin-top: 15%;
+    text-align: center;
+    font-family: "Jacques Francois";
+    font-size: 36px;
+    font-weight: normal;
+    color: #A31621;
+}
+
+.About p {
+    text-align: right;
+    font-family: "Libre Baskerville";
+    font-size: 24px;
+}
+
+/*section 3*/
+.eskul h2 {
+    text-align: center;
+    font-family: "Jacques Francois";
+    font-size: 36px;
+    font-weight: normal;
+    color: #A31621;
+}
+
+.eskul p {
+    font-family: "Baskerville";
+    font-size: 20px;
+    text-align: center;
+    margin-top: -2%;
+}
+
+.eskul-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.card {
+    background: #A31621;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px rgb(2, 2, 2);
+}
+
+.foto {
+    position:relative;
+    background-size: cover;
+    object-fit: cover;
+    opacity: 80%;
+    align-items:flex-end;
+    height: 175px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.foto img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 82%;
+    margin-bottom: -12%;
+    opacity: 95%;
+}
+
+.foto h3 {
+    margin-left: 15px;
+    margin-top: 42%;
+    color: rgb(255, 255, 255);
+    font-family: "Arial";
+    font-size: 20px;
+    z-index: 3;
+}
+
+.card-content {
+    padding: 15px;
+    color: #ffff;
+}
+
+.card-content h4 {
+    margin-top: -5px;
+}
+
+.card-content p {
+    font-family: "Itim";
+    font-size: 15px;
+    text-align: start;
+}
+
+.card-content a{
+    color: #FBECD7;
+}
+
+.card-content button {
+    margin-left: 30%;
+    border: none;
+    background-color: #FBECD7;
+    padding: 5px 30px;
+    font-family: "Lustria";
+    font-size: 15px;
+    border-radius: 15px;
+    color: #A31621;
+    margin-top: 5%;
+}
+
+.card-content button a {
+    color: #8b0000;
+    text-decoration: none;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+/*section 4*/
+.prestasi {
+    background-color: #FBECD7;
+    border-radius: 130px 130px 0px 0px;
+    margin-top: 5%;
+}
+
+.prestasi h2 {
+    text-align: center;
+    font-family: "Jacques Francois";
+    font-size: 36px;
+    font-weight: normal;
+    color: #A31621;   
+}
+
+.carousel{
+    margin-top: -2%;
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.carousel::-webkit-scrollbar{
+    display: none;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    animation: spin 18s infinite linear;
+    padding-right: 1em;
+}
+
+.cards {
+    flex: 0 0 700px;
+    height: 337px;
+    font-size: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    align-content: center
+}
+
+.cards p {
+    color: black;
+    font-family: "Lakki Reddy";
+    font-size: 20px;
+    background-color: #FBECD7;
+    width:95px;
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.overlay {
+    
+    background-color: rgba(145, 15, 15, 0.7);
+    margin-top: 28%;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.overlay h3 {
+    color: #FBECD7;
+    text-align: center;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-style: italic;
+}
+
+@keyframes spin{
+    from {translate: 0;}
+    to {translate: -100%;}
+}
+
+.desk p {
+    margin-top: 2%;
+    background: #A31621;
+    padding: 15px;
+    text-align: center;
+    color: #FBECD7;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-style: italic;
+}
+
+/*section 5 galeri*/
+
+.galeri h2 {
+    text-align: center;
+    font-family: "Jacques Francois";
+    font-size: 36px;
+    font-weight: normal;
+    color: #A31621;   
+}
+
+.gallery_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.gallery_button {
+    background: #b11212;
+    color: white;
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.gallery_button:hover {
+    background: #8b0000;
+}
+
+.gallery_list {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    width: 950px; 
+    scroll-behavior: smooth;
+}
+
+.gallery_item {
+    min-width: 300px;
+    height: 550px;
+    overflow: hidden;
+}
+
+.gallery_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.gallery_img--round-left {
+    border-top-left-radius: 150px;
+}
+
+.gallery_img--round-right {
+    border-top-right-radius: 150px;
+}
+
+/*section 6 Tutor*/
+.Tutor {
+    background-color: #FBECD7;
+    margin-top: 5%;
+    padding-bottom: 80px;
+}
+
+.Tutor h2 {
+    text-align: center;
+    font-family: "Jacques Francois";
+    font-size: 36px;
+    font-weight: normal;
+    color: #A31621;   
+}
+
+.card-tutor {
+    margin-top: 40px;
+    background-color: #8b0000;
+    width: 250px;
+    height: 281px;
+    box-shadow: 14px 0px 15px 0px rgb(2, 2, 2);
+}
+
+.card-tutor:hover {
+    transform: scale(1.05);
+    box-shadow:
+        0 0 15px rgba(255, 0, 0, 0.7),
+        0 0 30px rgba(255, 0, 0, 0.5),
+        0 0 45px rgba(255, 0, 0, 0.3);
+    cursor: pointer;
+} 
+
+.card-tutor img {
+    max-width: 256px;
+    height: 348px;
+    margin-top: -67px;
+}
+
+.card-tutor p {
+    margin-top: -15px;
+}
+
+.tutor-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+/*foorter*/
+.kontak {
+    background-color: #8b0000;
+}
+
+.footer-logo {
+    display: flex;
+}
+
+.footer-logo img {
+    width: 75px;
+    height: 75px;
+}
+
+.footer-logo h3 {
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.footer-logo span {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.footer-logo p {
+    font-family: 15px;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: flex-start;
+    color: #FBECD7;
+}
+
+.footer-left {
+    max-width: 300px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 50px; 
+    margin-left: 160px;
+}
+
+.footer-col h3 {
+    color: #FBECD7;
+    list-style: none;
+}
+
+.footer-col ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer-col li a {
+    color: #FBECD7;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 0;
+}
+
+.footer-caption p {
+    margin-bottom: -2%;
+    background: #FBECD7;
+    padding: 20px;
+    text-align: center;
+    color: #8b0000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-style: italic;
+}

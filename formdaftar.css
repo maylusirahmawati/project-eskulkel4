@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(145deg, #7b0f12, #b32024);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+.skillzone-btn{
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    padding: 10px 30px;
+    background: #F7EEDC;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.skillzone-btn:hover{
+    background-color: #A4161A;
+}
+
+.skillzone-btn a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', serif;
+    color: #A4161A;
+    font-size: 18px;
+}
+
+.skillzone-btn a:hover {
+    color: #F7EEDC;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0px 80px;
+}
+
+.card{
+    background: #F7EEDC;
+    width: 450px;
+    height: 600px;
+    padding: 45px 35px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.card h1{
+    color: #A4161A;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.desc{
+    margin-bottom: 25px;
+    font-size: 14px;
+    color: #2b2b2b;
+    line-height: 1.5;
+}
+
+label{
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+select {
+    background-color: #d9a5a7;
+    padding: 10px 150px;
+    margin-top: 2%;
+    border-radius: 10px;
+    border: none;
+    color: #2b2b2b;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    background: #d9a5a7;
+    border: none;
+    font-size: 14px;
+}
+
+textarea{ 
+    height: 70px; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.note{
+    font-size: 12px;
+    color: #3b3b3b;
+    margin-bottom: 18px;
+}
+
+.btn{
+    width: 50%;
+    padding: 12px;
+    background: #A4161A;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 19px;
+    transition: 0.3s;
+}
+
+.btn:hover{ 
+    background: #7d0e11;
+}
+
+.right img{
+    width: 600px;
+    filter: drop-shadow(2px 5px 10px rgba(0,0,0,0.4));
+}
