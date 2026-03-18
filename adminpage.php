@@ -12,7 +12,7 @@
     <div class="sidebar">
         <div class="logo">
             <img src="picture/logo.png" alt="">
-            <h3>SKILL ZONE <br> <span>ADMINISTRATOR</span></h3>
+            <h3>SKILL ZONE <br> <span>ADMIN</span></h3>
         </div>
 
         <ul>
